@@ -24,7 +24,7 @@ I was tired of switching between Google Calendar, a todo app, and a phone timer 
 
 The site blocker isn't just a reminder — it's a real Chrome extension that uses `chrome.declarativeNetRequest` to block sites at the browser level.
 
-When you try to open a blocked site during Focus Mode, you get redirected to a motivational page instead.
+When you try to open a blocked site during Focus Mode, you get redirected to a message page instead.
 
 ### How to install
 
@@ -40,13 +40,9 @@ When you try to open a blocked site during Focus Mode, you get redirected to a m
 - Add sites to block (e.g. `twitter.com`, `youtube.com`)
 - Turn on Focus Mode → those sites are actually blocked
 - Turn off Focus Mode → access is restored immediately
-- Blocked sites show a CalmFlow page with a random motivational quote
+- Blocked sites show a CalmFlow page with a message
 
 ---
-
-## Screenshots
-
-> *Coming soon*
 
 ## Using the dashboard
 
@@ -89,7 +85,6 @@ calmflow/
 
 - Vanilla HTML / CSS / JavaScript (no frameworks)
 - localStorage for data persistence
-- Google Fonts (Noto Sans JP + JetBrains Mono)
 - Chrome Extension Manifest V3
 - `chrome.declarativeNetRequest` API for site blocking
 
@@ -121,6 +116,3 @@ This was my first real web project beyond class assignments. Some things I figur
 - [ ] Maybe rewrite in React someday
 - [ ] Mobile PWA support
 
-## License
-
-All rights reserved. You can view the code and use the site, but please don't copy or redistribute the code. See [LICENSE](LICENSE) for details.
